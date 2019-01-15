@@ -17,14 +17,6 @@ public class SpringitApplication {
         SpringApplication.run(SpringitApplication.class, args);
 
     }
-    //test
-    @Bean
-    @Profile("dev")
-    CommandLineRunner runner() {
-        return args -> {
-            System.out.println("dev");
-
-        };
-    }
+   
 
 }
